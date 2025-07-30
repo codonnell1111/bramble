@@ -1,0 +1,80 @@
+/* src/pages/CreatePostPage.css */
+/* Nav links */
+.post-nav-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.nav-button {
+  background-color: transparent;
+  border: none;
+  color: hsl(284, 100%, 89%);
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1.75rem;
+  cursor: pointer;
+  transition: color 0.2s ease;
+}
+
+.nav-button:hover {
+  color: #ffffff;
+}
+
+.create-post-page {
+  min-height: 100vh;
+  background-image: url('http://localhost:3001/uploads/background1.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+
+.create-post-form {
+  background-color: rgba(255, 255, 255, 0.35);
+  backdrop-filter: blur(8px);
+  padding: 2.5rem;
+  border-radius: 12px;
+  max-width: 600px;
+  width: 100%;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.create-post-form h2 {
+  font-size: 2.7rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+  color: #7700c0;
+  text-shadow:0 0 4px #ffffff, 0 0 8px #611484, 0 0 12px hsl(0, 0%, 97%);
+}
+
+.create-post-form textarea {
+  width: 100%;
+  padding: 1rem;
+  font-size: 1.1rem;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  margin-bottom: 1rem;
+  resize: vertical;
+  box-sizing: border-box;
+}
+
+.create-post-form button {
+  width: 100%;
+  padding: 1rem;
+  background: linear-gradient(to right, #7700c0, #c78bff);
+  color: white;
+  font-size: 1.5rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.create-post-form button:hover {
+  background: linear-gradient(to right, #8f5dff, #d9a8ff);
+}

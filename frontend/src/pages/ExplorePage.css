@@ -1,0 +1,78 @@
+.explore-background {
+  background-image: url('http://localhost:3001/uploads/background5.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Arial', sans-serif;
+}
+
+/* Page layout */
+.explore-page {
+  display: flex;
+  justify-content: space-between;
+  padding: 100px 2rem 2rem;
+  gap: 2rem;
+  box-sizing: border-box;
+}
+
+/* Sidebar & Profile */
+.explore-sidebar,
+.explore-profile {
+  width: 220px;
+}
+
+/* Main content column */
+.explore-content {
+  flex: 1;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 80px 60px 40px 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  z-index: 1;
+}
+
+/* Content boxes */
+.explore-box {
+  background: rgba(255, 255, 255, 0.6);
+  backdrop-filter: blur(8px);
+  border-radius: 12px;
+  margin-left: 1rem;
+  margin-right: 2rem;
+  padding: 1.5rem;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+  color: #333;
+}
+
+.explore-box h2 {
+  margin-top: 0;
+  color: #6d3bbd;
+  font-size: 1.6rem;
+  text-align: center;
+  margin-bottom: 0.8rem;
+}
+
+.explore-post,
+.explore-user,
+.explore-news {
+  padding: 0.5rem 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+/* Optional: Hide side columns on mobile */
+@media (max-width: 768px) {
+  .explore-page {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .explore-sidebar,
+  .explore-profile {
+    display: none;
+  }
+}

@@ -1,0 +1,26 @@
+.post-card {
+  box-shadow: 0 2px 5px rgba(0,0,0,0.03);
+  width: 100%;           /* Important */
+  max-width: 100%;        /* Important */
+  box-sizing: border-box;
+  margin-bottom: 1rem;
+  border: 1px solid #ddd;
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 1rem;
+  transition: box-shadow 0.2s ease;
+}
+
+.post-card:hover {
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+}
+
+.post-header strong {
+  color: #3c6e71;
+}
+
+.post-content img {
+  width: 100%;
+  border-radius: 8px;
+  margin-top: 0.5rem;
+}

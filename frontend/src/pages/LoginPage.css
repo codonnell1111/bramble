@@ -1,0 +1,90 @@
+/* loginPage.css */
+
+.login-page {
+  background-image: url('http://localhost:3001/uploads/background2.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Arial', sans-serif;
+  position: relative;
+  z-index: 0;
+}
+
+.login-container {
+  width: 100%;
+  max-width: 500px;
+  padding: 2.5rem;
+  border-radius: 16px;
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(12px);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  z-index: 1;
+}
+
+.login-form h2 {
+  font-size: 2.7rem;
+  color:#d38dff;
+  text-shadow:0 0 4px #611484, 0 0 8px #611484, 0 0 12px #611484;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.login-form input {
+  display: block;
+  width: 100%;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  font-size: 1.4rem;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 8px;
+  background-color: hsl(284, 100%, 84%);
+  box-sizing: border-box;
+}
+
+.login-form button {
+  width: 100%;
+  padding: 1rem;
+  margin-top: 1rem;
+  background: linear-gradient(to right, #f107a3, #7b2ff7);
+  color: hsl(284, 100%, 84%);
+  font-size: 1.3rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.login-form button:hover {
+  background: linear-gradient(135deg, #ba66ff, #ba66ff);
+  color: white;
+}
+
+.login-nav-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.nav-button {
+  background-color: transparent;
+  border: none;
+  color: hsl(284, 100%, 84%);
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1.75rem;
+  cursor: pointer;
+  transition: color 0.2s ease;
+}
+
+.nav-button:hover {
+  color: #ffffff;
+}

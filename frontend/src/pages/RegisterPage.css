@@ -1,0 +1,96 @@
+/* Full page background */
+.register-page {
+  background-image: url('http://localhost:3001/uploads/background3.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+}
+
+/* Form container */
+.register-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding-left: 200px;
+  padding-right: 220px;
+  box-sizing: border-box;
+}
+
+/* Styled form */
+.register-form {
+  max-width: 500px;
+  width: 100%;
+  padding: 2.5rem;
+  border-radius: 12px;
+  background-color: rgba(255, 255, 255, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(8px);
+}
+
+/* Title */
+.register-form h2 {
+  font-size: 2.7rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+  color: #d38dff;
+  text-shadow:0 0 4px #611484, 0 0 8px #611484, 0 0 12px #611484;
+}
+
+/* Inputs */
+.register-form input {
+  display: block;
+  width: 100%;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  font-size: 1.4rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-sizing: border-box;
+  background-color: hsl(284, 100%, 84%);
+}
+
+/* Register button */
+.register-form button {
+  width: 100%;
+  padding: 1rem;
+  margin-top: 1rem;
+  background: linear-gradient(to right, #7b2ff7, #f107a3);
+  color: hsl(284, 100%, 84%);
+  font-size: 1.3rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.register-form button:hover {
+  background: linear-gradient(to right, #6b24e8, #e00690);
+}
+
+/* Nav links */
+.register-nav-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.nav-button {
+  background-color: transparent;
+  border: none;
+  color: #7b2ff7;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 0.95rem;
+  cursor: pointer;
+  transition: color 0.2s ease;
+}
+
+.nav-button:hover {
+  color: #f107a3;
+}
