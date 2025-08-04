@@ -2,7 +2,7 @@
 .profile-page {
   display: flex;
   min-height: 100vh;
-  background: url('/frontend/public/uploads/background4.png'), center/cover, no-repeat;
+  background: src="uploads/background4.png", center/cover, no-repeat;
   font-family: Arial, sans-serif;
 }
 
