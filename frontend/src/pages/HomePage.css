@@ -1,6 +1,6 @@
 /* NEW: Background wrapper */
 .home-background {
-  background-image: url('http://localhost:3001/uploads/background1.png');
+  background-image: url('/uploads/background1.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
