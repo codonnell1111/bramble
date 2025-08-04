@@ -2,7 +2,7 @@
 .profile-page {
   display: flex;
   min-height: 100vh;
-  background: url('http://localhost:3001/uploads/background4.png') center/cover
+  background: url('/uploads/background4.png') center/cover
     no-repeat;
   font-family: Arial, sans-serif;
 }
