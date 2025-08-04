@@ -5,7 +5,7 @@ import { AuthContext } from '../context/AuthContext';
 import './Sidebar.css';
 
 export default function Sidebar() {
-  const { user } = useContext(AuthContext);
+ // const { user } = useContext(AuthContext);
 
   return (
     <div className="sidebar">
