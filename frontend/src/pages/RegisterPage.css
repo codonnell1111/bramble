@@ -1,6 +1,6 @@
 /* Full page background */
 .register-page {
-  background-image: url('/uploads/background3.png');
+  background-image: url(`${process.env.PUBLIC_URL}/uploads/background5.png`);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
