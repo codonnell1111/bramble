@@ -1,5 +1,5 @@
 .explore-background {
-  background-image: url('/uploads/background5.png');
+  background-image: src="uploads/background2.png";
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
