@@ -23,7 +23,7 @@
 
 .create-post-page {
   min-height: 100vh;
-  background-image: url('/uploads/background1.png');
+  background-image: src="uploads/background4.png";
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
