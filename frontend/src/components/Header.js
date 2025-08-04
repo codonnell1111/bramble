@@ -7,7 +7,7 @@ export default function Header() {
     <header className="bramble-header">
       <h1>
         <img
-          src="http://localhost:3001/uploads/logo1.png"
+          src="uploads/logo1.png"
           alt="B"
           className="bramble-logo"
         />ramble
