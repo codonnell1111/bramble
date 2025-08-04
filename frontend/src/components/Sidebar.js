@@ -10,7 +10,7 @@ export default function Sidebar() {
   return (
     <div className="sidebar">
       <img
-        src="http://localhost:3001/uploads/logo1.png"
+        src="/uploads/logo1.png"
         alt="Bramble"
         className="sidebar-logo"
       />
