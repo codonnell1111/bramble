@@ -1,7 +1,7 @@
 /* loginPage.css */
 
 .login-page {
-  background-image: url('http://localhost:3001/uploads/background2.png');
+  background-image: url('/uploads/background2.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
